@@ -11,22 +11,23 @@ body{
 
 header{
     padding: 30px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #367c2b;
     background-color: rgba(0, 0,0,0.1);
 }
 header div {
     text-align: center;
 }
 header div a {
-      color: white;
+      color: #ffde00;
       font-size: 20px;
       line-height: 30px;
       margin: 0 16px;
       text-decoration: none;
       font-family: "Roboto", sans-serif;
-}
+      transition: color 650ms;
+    }
 header div a:hover {
-color: green;
+color:#367c2b;
 transition: color 650ms;
 }
 #box {
@@ -36,15 +37,16 @@ padding: 32px;
 
 #box img {
 border-radius: 50%;
-border: 5px  solid #6e0342;
+border: 5px  solid #367c2b;
 margin-bottom: 32px;
+width: 300px ;
 }
 
 #box h1 {
 font-size: 42px;
 line-height: 60px;
 font-weight: bold;
-color: white;
+color: #ffde00;
 }
 #box h2 {
 font-size: 25px;
@@ -61,4 +63,9 @@ margin: 32px auto;
 font-size: 20px;
 line-height: 14px;
 color: white;
+}
+
+#box  a {
+text-decoration: none;    
+color: #ffde00;
 }
