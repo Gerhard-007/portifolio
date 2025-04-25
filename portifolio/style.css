@@ -11,25 +11,30 @@ body{
 
 header{
     padding: 30px;
-    border-bottom: 1px solid #367c2b;
+    border-bottom: 1px solid var(--subcor);
     background-color: rgba(0, 0,0,0.1);
 }
-header div {
+
+.links {
     text-align: center;
 }
-header div a {
+
+.links a {
       color: #ffde00;
       font-size: 20px;
       line-height: 30px;
       margin: 0 16px;
       text-decoration: none;
       font-family: "Roboto", sans-serif;
-      transition: color 650ms;
+      transition: 750ms;
     }
-header div a:hover {
-color:#367c2b;
-transition: color 650ms;
+
+.links a:hover {
+color:var(--subcor);
+font-size: 23px;
+transition: 750ms;
 }
+
 #box {
 text-align: center;
 padding: 32px;
@@ -63,9 +68,40 @@ margin: 32px auto;
 font-size: 20px;
 line-height: 14px;
 color: white;
+transform: 750ms;
 }
 
 #box  a {
 text-decoration: none;    
 color: #ffde00;
+}
+
+:root{
+--subcor: #367c2b;
+}
+
+#box h1 {
+padding: 4px;
+}
+
+#box h2 {
+padding: 10px;
+}
+
+#box p:hover {
+font-size: 23px;
+}
+
+#box a {
+color: var(--subcor);
+transition: 750ms;}
+
+#linksFooter {
+padding-top: 32px;
+}
+
+#linksFooter a {
+padding-top: 32px;
+padding-bottom: 8px;
+border-bottom: 3px solid var(--subcor);
 }
